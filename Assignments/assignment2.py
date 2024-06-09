@@ -17,8 +17,10 @@ def split_and_sort(nums):
 
     return odd_nums, even_nums
 
-nums = [5, 4, 6, 10]
+# nums = [5, 4, 6, 10]
+nums = [1, 3, 5, 7, 9, 9]
 odd_nums, even_nums = split_and_sort(nums)
 
 print("Odd numbers:", odd_nums)
 print("Even numbers:", even_nums)
+# DOES NOT REMOVE DUPLICATES!
