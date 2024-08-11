@@ -23,4 +23,3 @@ odd_nums, even_nums = split_and_sort(nums)
 
 print("Odd numbers:", odd_nums)
 print("Even numbers:", even_nums)
-# DOES NOT REMOVE DUPLICATES!
